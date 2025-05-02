@@ -1,0 +1,9 @@
+/* Hide bibliography in all chapters except references.qmd */
+div#refs {
+  display: none;
+}
+
+/* Ensure bibliography is visible in references.qmd */
+.references div#refs {
+  display: block;
+}
